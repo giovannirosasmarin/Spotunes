@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08AD6F332253FAF100CAEDBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AD6F322253FAF100CAEDBE /* AppDelegate.swift */; };
+		08AD6F352253FAF100CAEDBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AD6F342253FAF100CAEDBE /* ViewController.swift */; };
+		08AD6F382253FAF100CAEDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AD6F362253FAF100CAEDBE /* Main.storyboard */; };
+		08AD6F3A2253FAF200CAEDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AD6F392253FAF200CAEDBE /* Assets.xcassets */; };
+		08AD6F3D2253FAF200CAEDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08AD6F3B2253FAF200CAEDBE /* LaunchScreen.storyboard */; };
+		08AD6F482253FAF200CAEDBE /* SpotunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AD6F472253FAF200CAEDBE /* SpotunesTests.swift */; };
+		08AD6F532253FAF200CAEDBE /* SpotunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AD6F522253FAF200CAEDBE /* SpotunesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08AD6F442253FAF200CAEDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08AD6F272253FAF100CAEDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08AD6F2E2253FAF100CAEDBE;
+			remoteInfo = Spotunes;
+		};
+		08AD6F4F2253FAF200CAEDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08AD6F272253FAF100CAEDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08AD6F2E2253FAF100CAEDBE;
+			remoteInfo = Spotunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08AD6F2F2253FAF100CAEDBE /* Spotunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08AD6F322253FAF100CAEDBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08AD6F342253FAF100CAEDBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08AD6F372253FAF100CAEDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08AD6F392253FAF200CAEDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08AD6F3C2253FAF200CAEDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08AD6F3E2253FAF200CAEDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AD6F432253FAF200CAEDBE /* SpotunesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotunesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08AD6F472253FAF200CAEDBE /* SpotunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotunesTests.swift; sourceTree = "<group>"; };
+		08AD6F492253FAF200CAEDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AD6F4E2253FAF200CAEDBE /* SpotunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08AD6F522253FAF200CAEDBE /* SpotunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotunesUITests.swift; sourceTree = "<group>"; };
+		08AD6F542253FAF200CAEDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08AD6F2C2253FAF100CAEDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08AD6F402253FAF200CAEDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08AD6F4B2253FAF200CAEDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08AD6F262253FAF100CAEDBE = {
+			isa = PBXGroup;
+			children = (
+				08AD6F312253FAF100CAEDBE /* Spotunes */,
+				08AD6F462253FAF200CAEDBE /* SpotunesTests */,
+				08AD6F512253FAF200CAEDBE /* SpotunesUITests */,
+				08AD6F302253FAF100CAEDBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08AD6F302253FAF100CAEDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08AD6F2F2253FAF100CAEDBE /* Spotunes.app */,
+				08AD6F432253FAF200CAEDBE /* SpotunesTests.xctest */,
+				08AD6F4E2253FAF200CAEDBE /* SpotunesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08AD6F312253FAF100CAEDBE /* Spotunes */ = {
+			isa = PBXGroup;
+			children = (
+				08AD6F322253FAF100CAEDBE /* AppDelegate.swift */,
+				08AD6F342253FAF100CAEDBE /* ViewController.swift */,
+				08AD6F362253FAF100CAEDBE /* Main.storyboard */,
+				08AD6F392253FAF200CAEDBE /* Assets.xcassets */,
+				08AD6F3B2253FAF200CAEDBE /* LaunchScreen.storyboard */,
+				08AD6F3E2253FAF200CAEDBE /* Info.plist */,
+			);
+			path = Spotunes;
+			sourceTree = "<group>";
+		};
+		08AD6F462253FAF200CAEDBE /* SpotunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				08AD6F472253FAF200CAEDBE /* SpotunesTests.swift */,
+				08AD6F492253FAF200CAEDBE /* Info.plist */,
+			);
+			path = SpotunesTests;
+			sourceTree = "<group>";
+		};
+		08AD6F512253FAF200CAEDBE /* SpotunesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08AD6F522253FAF200CAEDBE /* SpotunesUITests.swift */,
+				08AD6F542253FAF200CAEDBE /* Info.plist */,
+			);
+			path = SpotunesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08AD6F2E2253FAF100CAEDBE /* Spotunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08AD6F572253FAF200CAEDBE /* Build configuration list for PBXNativeTarget "Spotunes" */;
+			buildPhases = (
+				08AD6F2B2253FAF100CAEDBE /* Sources */,
+				08AD6F2C2253FAF100CAEDBE /* Frameworks */,
+				08AD6F2D2253FAF100CAEDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spotunes;
+			productName = Spotunes;
+			productReference = 08AD6F2F2253FAF100CAEDBE /* Spotunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08AD6F422253FAF200CAEDBE /* SpotunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08AD6F5A2253FAF200CAEDBE /* Build configuration list for PBXNativeTarget "SpotunesTests" */;
+			buildPhases = (
+				08AD6F3F2253FAF200CAEDBE /* Sources */,
+				08AD6F402253FAF200CAEDBE /* Frameworks */,
+				08AD6F412253FAF200CAEDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08AD6F452253FAF200CAEDBE /* PBXTargetDependency */,
+			);
+			name = SpotunesTests;
+			productName = SpotunesTests;
+			productReference = 08AD6F432253FAF200CAEDBE /* SpotunesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08AD6F4D2253FAF200CAEDBE /* SpotunesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08AD6F5D2253FAF200CAEDBE /* Build configuration list for PBXNativeTarget "SpotunesUITests" */;
+			buildPhases = (
+				08AD6F4A2253FAF200CAEDBE /* Sources */,
+				08AD6F4B2253FAF200CAEDBE /* Frameworks */,
+				08AD6F4C2253FAF200CAEDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08AD6F502253FAF200CAEDBE /* PBXTargetDependency */,
+			);
+			name = SpotunesUITests;
+			productName = SpotunesUITests;
+			productReference = 08AD6F4E2253FAF200CAEDBE /* SpotunesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08AD6F272253FAF100CAEDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = 915235482;
+				TargetAttributes = {
+					08AD6F2E2253FAF100CAEDBE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					08AD6F422253FAF200CAEDBE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 08AD6F2E2253FAF100CAEDBE;
+					};
+					08AD6F4D2253FAF200CAEDBE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 08AD6F2E2253FAF100CAEDBE;
+					};
+				};
+			};
+			buildConfigurationList = 08AD6F2A2253FAF100CAEDBE /* Build configuration list for PBXProject "Spotunes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08AD6F262253FAF100CAEDBE;
+			productRefGroup = 08AD6F302253FAF100CAEDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08AD6F2E2253FAF100CAEDBE /* Spotunes */,
+				08AD6F422253FAF200CAEDBE /* SpotunesTests */,
+				08AD6F4D2253FAF200CAEDBE /* SpotunesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08AD6F2D2253FAF100CAEDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AD6F3D2253FAF200CAEDBE /* LaunchScreen.storyboard in Resources */,
+				08AD6F3A2253FAF200CAEDBE /* Assets.xcassets in Resources */,
+				08AD6F382253FAF100CAEDBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08AD6F412253FAF200CAEDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08AD6F4C2253FAF200CAEDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08AD6F2B2253FAF100CAEDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AD6F352253FAF100CAEDBE /* ViewController.swift in Sources */,
+				08AD6F332253FAF100CAEDBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08AD6F3F2253FAF200CAEDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AD6F482253FAF200CAEDBE /* SpotunesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08AD6F4A2253FAF200CAEDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AD6F532253FAF200CAEDBE /* SpotunesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08AD6F452253FAF200CAEDBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08AD6F2E2253FAF100CAEDBE /* Spotunes */;
+			targetProxy = 08AD6F442253FAF200CAEDBE /* PBXContainerItemProxy */;
+		};
+		08AD6F502253FAF200CAEDBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08AD6F2E2253FAF100CAEDBE /* Spotunes */;
+			targetProxy = 08AD6F4F2253FAF200CAEDBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08AD6F362253FAF100CAEDBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08AD6F372253FAF100CAEDBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08AD6F3B2253FAF200CAEDBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08AD6F3C2253FAF200CAEDBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08AD6F552253FAF200CAEDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08AD6F562253FAF200CAEDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08AD6F582253FAF200CAEDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Spotunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = code.codepath.Spotunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08AD6F592253FAF200CAEDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Spotunes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = code.codepath.Spotunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08AD6F5B2253FAF200CAEDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = code.codepath.SpotunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotunes.app/Spotunes";
+			};
+			name = Debug;
+		};
+		08AD6F5C2253FAF200CAEDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotunesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = code.codepath.SpotunesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotunes.app/Spotunes";
+			};
+			name = Release;
+		};
+		08AD6F5E2253FAF200CAEDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotunesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = code.codepath.SpotunesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spotunes;
+			};
+			name = Debug;
+		};
+		08AD6F5F2253FAF200CAEDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpotunesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = code.codepath.SpotunesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spotunes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08AD6F2A2253FAF100CAEDBE /* Build configuration list for PBXProject "Spotunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AD6F552253FAF200CAEDBE /* Debug */,
+				08AD6F562253FAF200CAEDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08AD6F572253FAF200CAEDBE /* Build configuration list for PBXNativeTarget "Spotunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AD6F582253FAF200CAEDBE /* Debug */,
+				08AD6F592253FAF200CAEDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08AD6F5A2253FAF200CAEDBE /* Build configuration list for PBXNativeTarget "SpotunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AD6F5B2253FAF200CAEDBE /* Debug */,
+				08AD6F5C2253FAF200CAEDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08AD6F5D2253FAF200CAEDBE /* Build configuration list for PBXNativeTarget "SpotunesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08AD6F5E2253FAF200CAEDBE /* Debug */,
+				08AD6F5F2253FAF200CAEDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08AD6F272253FAF100CAEDBE /* Project object */;
+}
