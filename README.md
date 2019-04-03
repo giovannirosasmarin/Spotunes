@@ -3,7 +3,7 @@ Group Project - README Template
 # Team Members:
 1. Hector Aguirre
 2. Giovanni Rosas-Marin
-3. Teo Calvario
+3. Teodoro Calvario
 
 
 # SpotTunes
