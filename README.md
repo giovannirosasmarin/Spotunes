@@ -101,8 +101,6 @@ play the current top100 billboard songs.
 |Favorited|File|Determined if song is liked or not|
 
 ### Networking
-- [Add list of network requests by screen ]
-
 - Home Feed Screen
 
 (Read/GET) Query all posts where user is author
@@ -111,9 +109,6 @@ play the current top100 billboard songs.
 
 (Delete) Delete existing Favorite
 
-- Create Post Screen
-
-(Create/POST) Create a new post object
 - Profile Screen
 
 (Read/GET) Query logged in user object
