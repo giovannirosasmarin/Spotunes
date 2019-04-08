@@ -102,5 +102,23 @@ play the current top100 billboard songs.
 
 ### Networking
 - [Add list of network requests by screen ]
+
+- Home Feed Screen
+
+(Read/GET) Query all posts where user is author
+
+(Create) Create a new Favorite
+
+(Delete) Delete existing Favorite
+
+- Create Post Screen
+
+(Create/POST) Create a new post object
+- Profile Screen
+
+(Read/GET) Query logged in user object
+
+(Update/PUT) Update user profile image
+
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
