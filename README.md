@@ -92,7 +92,14 @@ play the current top100 billboard songs.
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+|Property|Type|Description|
+|---|---|---|
+|objectId|String|ID for all users|
+|image|File|Album cover image|
+|Label1|String|Name of the song|
+|Label2|String|Name of the artist|
+|Favorited|File|Determined if song is liked or not|
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
