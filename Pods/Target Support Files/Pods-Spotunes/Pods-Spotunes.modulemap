@@ -1,0 +1,6 @@
+framework module Pods_Spotunes {
+  umbrella header "Pods-Spotunes-umbrella.h"
+
+  export *
+  module * { export * }
+}
